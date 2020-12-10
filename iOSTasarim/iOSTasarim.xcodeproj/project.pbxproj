@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385825D0A0EA56B88B66B0CB /* Pods_iOSTasarim_iOSTasarimUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F03F2D83049F88491526BA /* Pods_iOSTasarim_iOSTasarimUITests.framework */; };
+		9FA19192258188280021DE59 /* AramaYapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA19191258188280021DE59 /* AramaYapViewController.swift */; };
+		9FA191972582185C0021DE59 /* PushSayfasiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA191962582185C0021DE59 /* PushSayfasiViewController.swift */; };
+		9FA1919C2582189B0021DE59 /* PresentSayfasiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1919B2582189B0021DE59 /* PresentSayfasiViewController.swift */; };
+		9FD0A717258012040096C097 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0A716258012040096C097 /* CustomTabViewController.swift */; };
+		9FFA59BB257FDCF200921457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA59BA257FDCF200921457 /* AppDelegate.swift */; };
+		9FFA59BD257FDCF200921457 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA59BC257FDCF200921457 /* SceneDelegate.swift */; };
+		9FFA59BF257FDCF200921457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA59BE257FDCF200921457 /* ViewController.swift */; };
+		9FFA59C2257FDCF200921457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFA59C0257FDCF200921457 /* Main.storyboard */; };
+		9FFA59C4257FDCF200921457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFA59C3257FDCF200921457 /* Assets.xcassets */; };
+		9FFA59C7257FDCF200921457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFA59C5257FDCF200921457 /* LaunchScreen.storyboard */; };
+		9FFA59D2257FDCF300921457 /* iOSTasarimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA59D1257FDCF300921457 /* iOSTasarimTests.swift */; };
+		9FFA59DD257FDCF300921457 /* iOSTasarimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA59DC257FDCF300921457 /* iOSTasarimUITests.swift */; };
+		E23124CDE9D2553EDBB97BFC /* Pods_iOSTasarim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16EE5B67C4DF9138A0B12F7 /* Pods_iOSTasarim.framework */; };
+		EE28D9A09A3CA687E904743F /* Pods_iOSTasarimTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FE41780E781D5E53A1BE7F /* Pods_iOSTasarimTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FFA59CE257FDCF300921457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFA59AF257FDCF200921457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFA59B6257FDCF200921457;
+			remoteInfo = iOSTasarim;
+		};
+		9FFA59D9257FDCF300921457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFA59AF257FDCF200921457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFA59B6257FDCF200921457;
+			remoteInfo = iOSTasarim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2008DD66D1C53F8E458E71B2 /* Pods-iOSTasarim-iOSTasarimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTasarim-iOSTasarimUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSTasarim-iOSTasarimUITests/Pods-iOSTasarim-iOSTasarimUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F56008CD74450F44682958D /* Pods-iOSTasarim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTasarim.release.xcconfig"; path = "Target Support Files/Pods-iOSTasarim/Pods-iOSTasarim.release.xcconfig"; sourceTree = "<group>"; };
+		40E7AC4AD571CC6888DD3962 /* Pods-iOSTasarim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTasarim.debug.xcconfig"; path = "Target Support Files/Pods-iOSTasarim/Pods-iOSTasarim.debug.xcconfig"; sourceTree = "<group>"; };
+		4E571AD25AC63C674CD35E8A /* Pods-iOSTasarim-iOSTasarimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTasarim-iOSTasarimUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSTasarim-iOSTasarimUITests/Pods-iOSTasarim-iOSTasarimUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50FE41780E781D5E53A1BE7F /* Pods_iOSTasarimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTasarimTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		696D22DCAE43D30FEAC25862 /* Pods-iOSTasarimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTasarimTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSTasarimTests/Pods-iOSTasarimTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FA19191258188280021DE59 /* AramaYapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AramaYapViewController.swift; sourceTree = "<group>"; };
+		9FA191962582185C0021DE59 /* PushSayfasiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushSayfasiViewController.swift; sourceTree = "<group>"; };
+		9FA1919B2582189B0021DE59 /* PresentSayfasiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentSayfasiViewController.swift; sourceTree = "<group>"; };
+		9FD0A716258012040096C097 /* CustomTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
+		9FFA59B7257FDCF200921457 /* iOSTasarim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTasarim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFA59BA257FDCF200921457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FFA59BC257FDCF200921457 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9FFA59BE257FDCF200921457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FFA59C1257FDCF200921457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FFA59C3257FDCF200921457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FFA59C6257FDCF200921457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FFA59C8257FDCF200921457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFA59CD257FDCF300921457 /* iOSTasarimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTasarimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFA59D1257FDCF300921457 /* iOSTasarimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTasarimTests.swift; sourceTree = "<group>"; };
+		9FFA59D3257FDCF300921457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFA59D8257FDCF300921457 /* iOSTasarimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTasarimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFA59DC257FDCF300921457 /* iOSTasarimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTasarimUITests.swift; sourceTree = "<group>"; };
+		9FFA59DE257FDCF300921457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07D90A575D5DEF0C28C03EF /* Pods-iOSTasarimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTasarimTests.release.xcconfig"; path = "Target Support Files/Pods-iOSTasarimTests/Pods-iOSTasarimTests.release.xcconfig"; sourceTree = "<group>"; };
+		B16EE5B67C4DF9138A0B12F7 /* Pods_iOSTasarim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTasarim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F03F2D83049F88491526BA /* Pods_iOSTasarim_iOSTasarimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTasarim_iOSTasarimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFA59B4257FDCF200921457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23124CDE9D2553EDBB97BFC /* Pods_iOSTasarim.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFA59CA257FDCF300921457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE28D9A09A3CA687E904743F /* Pods_iOSTasarimTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFA59D5257FDCF300921457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385825D0A0EA56B88B66B0CB /* Pods_iOSTasarim_iOSTasarimUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A209DAAA1F968347F2F3C15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40E7AC4AD571CC6888DD3962 /* Pods-iOSTasarim.debug.xcconfig */,
+				3F56008CD74450F44682958D /* Pods-iOSTasarim.release.xcconfig */,
+				4E571AD25AC63C674CD35E8A /* Pods-iOSTasarim-iOSTasarimUITests.debug.xcconfig */,
+				2008DD66D1C53F8E458E71B2 /* Pods-iOSTasarim-iOSTasarimUITests.release.xcconfig */,
+				696D22DCAE43D30FEAC25862 /* Pods-iOSTasarimTests.debug.xcconfig */,
+				A07D90A575D5DEF0C28C03EF /* Pods-iOSTasarimTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		824FFB6A3122BE3514D6434F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16EE5B67C4DF9138A0B12F7 /* Pods_iOSTasarim.framework */,
+				D6F03F2D83049F88491526BA /* Pods_iOSTasarim_iOSTasarimUITests.framework */,
+				50FE41780E781D5E53A1BE7F /* Pods_iOSTasarimTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FFA59AE257FDCF200921457 = {
+			isa = PBXGroup;
+			children = (
+				9FFA59B9257FDCF200921457 /* iOSTasarim */,
+				9FFA59D0257FDCF300921457 /* iOSTasarimTests */,
+				9FFA59DB257FDCF300921457 /* iOSTasarimUITests */,
+				9FFA59B8257FDCF200921457 /* Products */,
+				4A209DAAA1F968347F2F3C15 /* Pods */,
+				824FFB6A3122BE3514D6434F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFA59B8257FDCF200921457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFA59B7257FDCF200921457 /* iOSTasarim.app */,
+				9FFA59CD257FDCF300921457 /* iOSTasarimTests.xctest */,
+				9FFA59D8257FDCF300921457 /* iOSTasarimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFA59B9257FDCF200921457 /* iOSTasarim */ = {
+			isa = PBXGroup;
+			children = (
+				9FFA59BA257FDCF200921457 /* AppDelegate.swift */,
+				9FFA59BC257FDCF200921457 /* SceneDelegate.swift */,
+				9FFA59BE257FDCF200921457 /* ViewController.swift */,
+				9FFA59C0257FDCF200921457 /* Main.storyboard */,
+				9FFA59C3257FDCF200921457 /* Assets.xcassets */,
+				9FFA59C5257FDCF200921457 /* LaunchScreen.storyboard */,
+				9FFA59C8257FDCF200921457 /* Info.plist */,
+				9FD0A716258012040096C097 /* CustomTabViewController.swift */,
+				9FA19191258188280021DE59 /* AramaYapViewController.swift */,
+				9FA191962582185C0021DE59 /* PushSayfasiViewController.swift */,
+				9FA1919B2582189B0021DE59 /* PresentSayfasiViewController.swift */,
+			);
+			path = iOSTasarim;
+			sourceTree = "<group>";
+		};
+		9FFA59D0257FDCF300921457 /* iOSTasarimTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFA59D1257FDCF300921457 /* iOSTasarimTests.swift */,
+				9FFA59D3257FDCF300921457 /* Info.plist */,
+			);
+			path = iOSTasarimTests;
+			sourceTree = "<group>";
+		};
+		9FFA59DB257FDCF300921457 /* iOSTasarimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFA59DC257FDCF300921457 /* iOSTasarimUITests.swift */,
+				9FFA59DE257FDCF300921457 /* Info.plist */,
+			);
+			path = iOSTasarimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFA59B6257FDCF200921457 /* iOSTasarim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFA59E1257FDCF300921457 /* Build configuration list for PBXNativeTarget "iOSTasarim" */;
+			buildPhases = (
+				465E854CF7E823812140E957 /* [CP] Check Pods Manifest.lock */,
+				9FFA59B3257FDCF200921457 /* Sources */,
+				9FFA59B4257FDCF200921457 /* Frameworks */,
+				9FFA59B5257FDCF200921457 /* Resources */,
+				DD7BC077C22B51186DFD13A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTasarim;
+			productName = iOSTasarim;
+			productReference = 9FFA59B7257FDCF200921457 /* iOSTasarim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FFA59CC257FDCF300921457 /* iOSTasarimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFA59E4257FDCF300921457 /* Build configuration list for PBXNativeTarget "iOSTasarimTests" */;
+			buildPhases = (
+				F7173FB479FC439AD9412CAC /* [CP] Check Pods Manifest.lock */,
+				9FFA59C9257FDCF300921457 /* Sources */,
+				9FFA59CA257FDCF300921457 /* Frameworks */,
+				9FFA59CB257FDCF300921457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFA59CF257FDCF300921457 /* PBXTargetDependency */,
+			);
+			name = iOSTasarimTests;
+			productName = iOSTasarimTests;
+			productReference = 9FFA59CD257FDCF300921457 /* iOSTasarimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FFA59D7257FDCF300921457 /* iOSTasarimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFA59E7257FDCF300921457 /* Build configuration list for PBXNativeTarget "iOSTasarimUITests" */;
+			buildPhases = (
+				6520D118A630DB6ADD99E895 /* [CP] Check Pods Manifest.lock */,
+				9FFA59D4257FDCF300921457 /* Sources */,
+				9FFA59D5257FDCF300921457 /* Frameworks */,
+				9FFA59D6257FDCF300921457 /* Resources */,
+				7E63A5BB1C7F9ACB78D56F3E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFA59DA257FDCF300921457 /* PBXTargetDependency */,
+			);
+			name = iOSTasarimUITests;
+			productName = iOSTasarimUITests;
+			productReference = 9FFA59D8257FDCF300921457 /* iOSTasarimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFA59AF257FDCF200921457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9FFA59B6257FDCF200921457 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					9FFA59CC257FDCF300921457 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9FFA59B6257FDCF200921457;
+					};
+					9FFA59D7257FDCF300921457 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9FFA59B6257FDCF200921457;
+					};
+				};
+			};
+			buildConfigurationList = 9FFA59B2257FDCF200921457 /* Build configuration list for PBXProject "iOSTasarim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FFA59AE257FDCF200921457;
+			productRefGroup = 9FFA59B8257FDCF200921457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFA59B6257FDCF200921457 /* iOSTasarim */,
+				9FFA59CC257FDCF300921457 /* iOSTasarimTests */,
+				9FFA59D7257FDCF300921457 /* iOSTasarimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FFA59B5257FDCF200921457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFA59C7257FDCF200921457 /* LaunchScreen.storyboard in Resources */,
+				9FFA59C4257FDCF200921457 /* Assets.xcassets in Resources */,
+				9FFA59C2257FDCF200921457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFA59CB257FDCF300921457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFA59D6257FDCF300921457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		465E854CF7E823812140E957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTasarim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6520D118A630DB6ADD99E895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTasarim-iOSTasarimUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E63A5BB1C7F9ACB78D56F3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTasarim-iOSTasarimUITests/Pods-iOSTasarim-iOSTasarimUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTasarim-iOSTasarimUITests/Pods-iOSTasarim-iOSTasarimUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTasarim-iOSTasarimUITests/Pods-iOSTasarim-iOSTasarimUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7BC077C22B51186DFD13A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTasarim/Pods-iOSTasarim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTasarim/Pods-iOSTasarim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTasarim/Pods-iOSTasarim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7173FB479FC439AD9412CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTasarimTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFA59B3257FDCF200921457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA19192258188280021DE59 /* AramaYapViewController.swift in Sources */,
+				9FFA59BF257FDCF200921457 /* ViewController.swift in Sources */,
+				9FD0A717258012040096C097 /* CustomTabViewController.swift in Sources */,
+				9FFA59BB257FDCF200921457 /* AppDelegate.swift in Sources */,
+				9FA1919C2582189B0021DE59 /* PresentSayfasiViewController.swift in Sources */,
+				9FFA59BD257FDCF200921457 /* SceneDelegate.swift in Sources */,
+				9FA191972582185C0021DE59 /* PushSayfasiViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFA59C9257FDCF300921457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFA59D2257FDCF300921457 /* iOSTasarimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFA59D4257FDCF300921457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFA59DD257FDCF300921457 /* iOSTasarimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FFA59CF257FDCF300921457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFA59B6257FDCF200921457 /* iOSTasarim */;
+			targetProxy = 9FFA59CE257FDCF300921457 /* PBXContainerItemProxy */;
+		};
+		9FFA59DA257FDCF300921457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFA59B6257FDCF200921457 /* iOSTasarim */;
+			targetProxy = 9FFA59D9257FDCF300921457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FFA59C0257FDCF200921457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFA59C1257FDCF200921457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FFA59C5257FDCF200921457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFA59C6257FDCF200921457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FFA59DF257FDCF300921457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FFA59E0257FDCF300921457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FFA59E2257FDCF300921457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E7AC4AD571CC6888DD3962 /* Pods-iOSTasarim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = iOSTasarim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakan.iOSTasarim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FFA59E3257FDCF300921457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F56008CD74450F44682958D /* Pods-iOSTasarim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = iOSTasarim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakan.iOSTasarim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FFA59E5257FDCF300921457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696D22DCAE43D30FEAC25862 /* Pods-iOSTasarimTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = iOSTasarimTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakan.iOSTasarimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTasarim.app/iOSTasarim";
+			};
+			name = Debug;
+		};
+		9FFA59E6257FDCF300921457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07D90A575D5DEF0C28C03EF /* Pods-iOSTasarimTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = iOSTasarimTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakan.iOSTasarimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTasarim.app/iOSTasarim";
+			};
+			name = Release;
+		};
+		9FFA59E8257FDCF300921457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E571AD25AC63C674CD35E8A /* Pods-iOSTasarim-iOSTasarimUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = iOSTasarimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakan.iOSTasarimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSTasarim;
+			};
+			name = Debug;
+		};
+		9FFA59E9257FDCF300921457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2008DD66D1C53F8E458E71B2 /* Pods-iOSTasarim-iOSTasarimUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = iOSTasarimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakan.iOSTasarimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSTasarim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFA59B2257FDCF200921457 /* Build configuration list for PBXProject "iOSTasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFA59DF257FDCF300921457 /* Debug */,
+				9FFA59E0257FDCF300921457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFA59E1257FDCF300921457 /* Build configuration list for PBXNativeTarget "iOSTasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFA59E2257FDCF300921457 /* Debug */,
+				9FFA59E3257FDCF300921457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFA59E4257FDCF300921457 /* Build configuration list for PBXNativeTarget "iOSTasarimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFA59E5257FDCF300921457 /* Debug */,
+				9FFA59E6257FDCF300921457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFA59E7257FDCF300921457 /* Build configuration list for PBXNativeTarget "iOSTasarimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFA59E8257FDCF300921457 /* Debug */,
+				9FFA59E9257FDCF300921457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFA59AF257FDCF200921457 /* Project object */;
+}

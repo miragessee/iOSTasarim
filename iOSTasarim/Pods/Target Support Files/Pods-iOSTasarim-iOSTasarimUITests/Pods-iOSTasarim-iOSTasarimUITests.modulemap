@@ -1,0 +1,6 @@
+framework module Pods_iOSTasarim_iOSTasarimUITests {
+  umbrella header "Pods-iOSTasarim-iOSTasarimUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

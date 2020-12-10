@@ -1,0 +1,24 @@
+PODS:
+  - Mapbox-iOS-SDK (6.3.0):
+    - MapboxMobileEvents (~> 0.10.4)
+  - MapboxMobileEvents (0.10.7)
+  - STTabbar (0.1.0)
+
+DEPENDENCIES:
+  - Mapbox-iOS-SDK (~> 6.3.0)
+  - STTabbar
+
+SPEC REPOS:
+  trunk:
+    - Mapbox-iOS-SDK
+    - MapboxMobileEvents
+    - STTabbar
+
+SPEC CHECKSUMS:
+  Mapbox-iOS-SDK: 2563ed87ead6ec08f1c2090873977b8a7be335a8
+  MapboxMobileEvents: d0a581dedd8f47411cc65ea520b965e83914316e
+  STTabbar: fe93da755010233b348b2d0147c43bb1bef290fa
+
+PODFILE CHECKSUM: b1fdccd829bf540900983c55d0ce80d623917aac
+
+COCOAPODS: 1.9.3
